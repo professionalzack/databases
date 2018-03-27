@@ -61,7 +61,7 @@ VALUES
   ( 5,   'Cedric', 'Diggory', 'cdiggory@hotmail.com', '345-234-1234', '44 44th street, brighton, england'),
   ( 6,   'Harry', 'Potter', 'boywholived@hpfanclub.com', '999-939-3333', '10 privet lane, somewhere, england');
 
-INSERT INTO bookings
+INSERT INTO hotel_bookings
   ("id", "guest_id", "room_number",       "check_in_date",                        "check_out_date")
 VALUES
  ( 1,     1,          '201',  CURRENT_DATE - INTERVAL '6 YEARS, 1 DAY',  CURRENT_DATE - INTERVAL '6 YEARS'),
